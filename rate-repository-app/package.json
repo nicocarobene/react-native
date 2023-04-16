@@ -1,0 +1,43 @@
+{
+  "name": "rate-repository-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.12",
+    "apollo-boost": "^0.4.9",
+    "expo": "~48.0.11",
+    "expo-splash-screen": "~0.18.1",
+    "expo-status-bar": "~1.4.4",
+    "formik": "^2.2.9",
+    "graphql": "^15.8.0",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.71.6",
+    "react-native-web": "^0.18.12",
+    "react-router-native": "^6.10.0",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@expo/webpack-config": "^18.0.4",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "standard-jsx"
+    ]
+  },
+  "private": true
+}
